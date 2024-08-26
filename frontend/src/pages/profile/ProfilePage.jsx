@@ -31,7 +31,7 @@ const ProfilePage = () => {
     coverImg: "/cover.png",
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     link: "https://youtube.com/@asaprogrammer_",
-    following: ["1", "2", "3"],
+    followings: ["1", "2", "3"],
     followers: ["1", "2", "3"],
   };
 
@@ -175,7 +175,7 @@ const ProfilePage = () => {
                 <div className="flex gap-2">
                   <div className="flex gap-1 items-center">
                     <span className="font-bold text-xs">
-                      {user?.following.length}
+                      {user?.followings.length}
                     </span>
                     <span className="text-slate-500 text-xs">Following</span>
                   </div>
